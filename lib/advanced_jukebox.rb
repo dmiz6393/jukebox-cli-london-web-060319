@@ -1,7 +1,3 @@
-#Here is the song hash you will be working with. Each key is a song name and each value is the location of it's mp3 file.
-#make sure to edit the value of each key to replace < path to this directory >
-#with the correct path to this directory on your computer
-
 my_songs = {
 "Go Go GO" => '/home/dmiz/jukebox-cli/audio/Emerald-Park/01.mp3',
 "LiberTeens" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/02.mp3',
@@ -40,7 +36,6 @@ def play(my_songs)
     puts "Invalid input, please try again"
   end
 end	
-end
 
 def exit_jukebox
   puts "Goodbye"
